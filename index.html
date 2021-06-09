@@ -14,12 +14,12 @@
             <h1><a href="#"><img src="./images/loggo.png" alt="anhlogo"></a></h1>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
 </header>
@@ -91,20 +91,6 @@
             <h2 class="has_first_block">meet the team</h2>
             <div class="list_teams">
                 <div class="team_item">
-                    <div><img src="./images/team/1.jpg" alt=""></div>
-                    <div class="infor">
-                        <h4>Grolia Bromley</h4>
-                        <p>CEO and Founder</p>
-                    </div>
-                    <div class="mark">
-                        <ul>
-                            <li><a href="#">switter</a></li>
-                            <li><a href="#">facebook</a></li>
-                            <li><a href="#">linkedin</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team_item">
                     <div><img src="./images/team/1.jpg" alt="">
                         <div class="mark">
                             <ul>
@@ -119,23 +105,8 @@
                         <p>CEO and Founder</p>
                     </div>
                 </div>
-               <div class="team_item">
-                    <div><img src="./images/team/1.jpg" alt="">
-                        <div class="mark">
-                        <ul>
-                            <li><a href="#">switter</a></li>
-                            <li><a href="#">facebook</a></li>
-                            <li><a href="#">linkedin</a></li>
-                        </ul>
-                    </div>
-                    </div>
-                        <div class="infor">
-                            <h4>Grolia Bromley</h4>
-                            <p>CEO and Founder</p>
-                        </div>
-                    </div>
                 <div class="team_item">
-                    <div><img src="./images/team/1.jpg" alt="">
+                    <div><img src="./images/team/2.jpg" alt="">
                         <div class="mark">
                             <ul>
                                 <li><a href="#">switter</a></li>
@@ -148,8 +119,38 @@
                         <h4>Grolia Bromley</h4>
                         <p>CEO and Founder</p>
                     </div>
-                </div>              
-            </div>
+                </div>
+                <div class="team_item">
+                    <div><img src="./images/team/3.jpg" alt="">
+                        <div class="mark">
+                            <ul>
+                                <li><a href="#">switter</a></li>
+                                <li><a href="#">facebook</a></li>
+                                <li><a href="#">linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="infor">
+                        <h4>Grolia Bromley</h4>
+                        <p>CEO and Founder</p>
+                    </div>
+                </div>
+                <div class="team_item">
+                    <div><img src="./images/team/4.jpg" alt="">
+                        <div class="mark">
+                            <ul>
+                                <li><a href="#">switter</a></li>
+                                <li><a href="#">facebook</a></li>
+                                <li><a href="#">linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="infor">
+                        <h4>Grolia Bromley</h4>
+                        <p>CEO and Founder</p>
+                    </div>
+                </div>
+            </div>   
         </div>
     </div>
     <!-- ======================end team==================== -->
@@ -194,6 +195,9 @@
                         <h4>Partnership</h4>
                     </div>
                 </div>
+            </div>
+            <div id="showmemore">
+                <a href="#">show me more</a>
             </div>
         </div>
 </div>
@@ -272,25 +276,30 @@
 <!-- ==================end features============== -->
 <!-- =====================contact============== -->
 <div id="contact">
+        <h2 class="has_first_block container">stay in touch.</h2>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29793.980384364946!2d105.81945407150623!3d21.022778763281334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1617924463181!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         <div class="container">
-            <h2 class="has_first_block">stay in touch.</h2>
             <div>
                 <div class="left">
                     <h4>contact information</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non
                     Nulla vestibulum lacus sed molestie gravida.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>Sed nisi metus</span>, tristique nec dolor non
                     Nulla vestibulum lacus sed molestie gravida.</p>
                 </div>
                 <div class="right">
                     <form action="">
-                        <div>
-                            <label for="">Your Name</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <label for="">Your Email</label>
-                            <input type="text">
+                        <div class="user_info">
+                            <div>
+                                <label for="">Your Name</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="">Your Email</label>
+                                <input type="text">
+                            </div>
                         </div>
                         <div>
                             <label for="">Your message</label>
@@ -305,6 +314,7 @@
         </div>
 </div>
 <!-- ========================end contact================== -->
+<!-- ==========================footer========================== -->
 <footer>
     <div class="container">
         <p>&copy;Copyright 2014 by PSD Booster. All Rights Reserved.</p>
@@ -317,5 +327,7 @@
         </ul>
     </div>
 </footer>
+<!-- ==========================end footer========================== -->
+
 </body>
 </html>
